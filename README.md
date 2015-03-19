@@ -1,7 +1,10 @@
 Tradutor Unicode
 
 Objetivo: tomar nota de conteúdo matemático usando um computador convencional.
-Problema: dificuldade na memorização de códigos Unicode para caracteres matemáticos.
+
+Problema: impraticabilidade de inclusão de símbolos matemáticos no texto devido a dificuldade de memorização dos códigos Unicode para caracteres matemáticos.
+
+Solução: tradução assistida por máquina de vocábulos derivados de linguagem natural para símbolos matemáticos da tabela Unicode.
 
 Quando executado, o programa aguarda que o usuário digite uma cadeia de caracteres que seja correspondente a uma auto-expansão conhecida e realiza a troca da cadeia digitada pelo usuário pelo respectivo caractere Unicode. O reconhecimento de padrões pode ser desativado temporariamente para que o usuário possa digitar vocábulos de linguagem natural sem que uma auto-expansão ocorra.
 
@@ -16,5 +19,7 @@ Ao ser executado, o programa inicia com o modo de tradução ativo. Executar o p
 O modo de tradução tem validade global para o usuário que o executa, isto é, a auto-expansão não é restrita a algum console ou interface gráfica de usuário. O programa não afeta outras contas de usuário que estejam usando concorrentemente o sistema operacional.
 
 Obtive o correspondente Unicode para os símbolos matemáticos em:
+
 1. https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode
+
 2. http://www.fileformat.info/info/unicode/char/search.htm
