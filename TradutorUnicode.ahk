@@ -14,23 +14,34 @@ setWorkingDir %A_ScriptDir%
 #usehook
 }
 ; ---------------- Declaração de atalhos ----------------
+#Hotstring C1
+::paratodo::{U+2200}
 ::existe::{U+2203}
-::para todo::{U+2200}
-::capital sigma::{U+03A3}
+::nãoexiste::{U+2204}
+::conjuntovazio::{U+2205}
+::pertence::{U+2208}
+::nãopertence::{U+2209}
+::contém::{U+220B}
+::nãocontém::{U+220C}
+::fimdeprova::{U+220E}
+::anel::{U+2218}
+::infinito::{U+221E}
+::e::{U+2227}
+::ou::{U+2228}
+::intersecção::{U+2229}
+::união::{U+222A}
+::integral::{U+222B}
 ;::::{U+220}
 ;::::{U+220}
 ;::::{U+220}
 ;::::{U+220}
-;::::{U+220}
-;::::{U+220}
-;::::{U+220}
-;::::{U+220}
-;::::{U+220}
-::e::{U+22C0}
-::ou::{U+22C1}
-::intersecção::{U+22C2}
-::união::{U+22C3}
+::narioe::{U+22C0}
+::narioou::{U+22C1}
+::nariointersecção::{U+22C2}
+::nariounião::{U+22C3}
 
+
+::capital sigma::{U+03A3}
 :*:unisw:: ;Cambiar estado do Tradutor
 	Suspend
 	{

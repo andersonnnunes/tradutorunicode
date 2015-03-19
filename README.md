@@ -5,7 +5,7 @@ Problema: dificuldade na memorização de códigos Unicode para caracteres matem
 
 Quando executado, o programa aguarda que o usuário digite uma cadeia de caracteres que seja correspondente a uma auto-expansão conhecida e realiza a troca da cadeia digitada pelo usuário pelo respectivo caracter Unicode. O reconhecimento de padrões pode ser desativado temporariamente para que o usuário possa digitar vocábulos de linguagem natural sem que uma auto-expansão ocorra.
 
-Exemplo de caso de uso: usuário executa o programa, abre um editor de texto com suporte a Unicode, digita "para todo" e digita um caracter de finalização (-()[]{}':;"/\,.?!`n `t). Neste caso, o Tradutor Unicode apaga o conteúdo digitado pelo usuário e insere o caracter relativo à notação Unicode "U+2200".
+Exemplo de caso de uso: usuário executa o programa, abre um editor de texto com suporte a Unicode, digita "paratodo" e digita um caracter de finalização (-()[]{}':;"/\,.?!`n `t). Neste caso, o Tradutor Unicode apaga o conteúdo digitado pelo usuário e insere o caracter relativo à notação Unicode "U+2200".
 
 Para desativar temporariamente o Tradutor Unicode, o usuário deve digitar "unisw", não necessariamente em um editor de texto, basta que as teclas "unisw" sejam pressionadas em sequência. Para reativar o Tradutor, o usuário deve tornar a digitar a sequência "unisw". Uma mensagem confirmará a ativação/desativação do programa, ela aparecerá na região noroeste da janela ativa.
 
