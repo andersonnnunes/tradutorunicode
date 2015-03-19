@@ -14,22 +14,22 @@ setWorkingDir %A_ScriptDir%
 #usehook
 }
 ; ---------------- Declaração de atalhos ----------------
-:*:existe::{U+2203}
-:*:para todo::{U+2200}
-:*:capital sigma::{U+03A3}
-;:*:::{U+220}
-;:*:::{U+220}
-;:*:::{U+220}
-;:*:::{U+220}
-;:*:::{U+220}
-;:*:::{U+220}
-;:*:::{U+220}
-;:*:::{U+220}
-;:*:::{U+220}
-:*:e::{U+22C0}
-:*:ou::{U+22C1}
-:*:intersecção::{U+22C2}
-:*:união::{U+22C3}
+::existe::{U+2203}
+::para todo::{U+2200}
+::capital sigma::{U+03A3}
+;::::{U+220}
+;::::{U+220}
+;::::{U+220}
+;::::{U+220}
+;::::{U+220}
+;::::{U+220}
+;::::{U+220}
+;::::{U+220}
+;::::{U+220}
+::e::{U+22C0}
+::ou::{U+22C1}
+::intersecção::{U+22C2}
+::união::{U+22C3}
 
 :*:unisw:: ;Cambiar estado do Tradutor
 	Suspend
