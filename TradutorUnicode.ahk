@@ -34,12 +34,12 @@ setWorkingDir %A_ScriptDir%
 ;::::{U+220}
 ;::::{U+220}
 ;::::{U+220}
-;::::{U+220}
 ::narioe::{U+22C0}
 ::narioou::{U+22C1}
 ::nariointersecção::{U+22C2}
 ::nariounião::{U+22C3}
 
+::doisiguaisconsecutivos::{U+2A75}
 
 ::capital sigma::{U+03A3}
 :*:unisw:: ;Cambiar estado do Tradutor
