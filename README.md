@@ -6,6 +6,8 @@ Problema: impraticabilidade de inclusão de símbolos matemáticos no texto devi
 
 Solução: tradução assistida por máquina de vocábulos derivados de linguagem natural para símbolos matemáticos da tabela Unicode.
 
+Linguagem de programação: AutoHotkey_L
+
 Quando executado, o programa aguarda que o usuário digite uma cadeia de caracteres que seja correspondente a uma auto-expansão conhecida e realiza a troca da cadeia digitada pelo usuário pelo respectivo caractere Unicode. O reconhecimento de padrões pode ser desativado temporariamente para que o usuário possa digitar vocábulos de linguagem natural sem que uma auto-expansão ocorra.
 
 Exemplo de caso de uso: usuário executa o programa, abre um editor de texto com suporte a Unicode, digita "paratodo" e digita um caractere de finalização (-()[]{}':;"/\,.?!`n `t). Neste caso, o Tradutor Unicode apaga o conteúdo digitado pelo usuário e insere o caractere relativo à notação Unicode "U+2200".
@@ -23,3 +25,11 @@ Obtive o correspondente Unicode para os símbolos matemáticos em:
 1. https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode
 
 2. http://www.fileformat.info/info/unicode/char/search.htm
+
+Exemplos
+
+Objetivo: expressar "∀ x ∀ y|P(x) → P(y) ∎" - tamanho: 21.
+
+Sem o Tradutor Unicode: "Para todo x, para todo y, se P(x) então P(y). Fim de prova." - tamanho: 59.
+
+Com o Tradutor Unicode: "paratodo x paratodo y|P(x) implica P(y) fimdeprova " - tamanho: 51.

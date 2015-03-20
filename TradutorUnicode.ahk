@@ -42,6 +42,10 @@ setWorkingDir %A_ScriptDir%
 ::doisiguaisconsecutivos::{U+2A75}
 
 ::capital sigma::{U+03A3}
+
+::recebe::{U+2190}
+::implica::{U+2192}
+::biimplica::{U+2194}
 :*:unisw:: ;Cambiar estado do Tradutor
 	Suspend
 	{
