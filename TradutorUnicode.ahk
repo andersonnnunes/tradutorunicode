@@ -31,6 +31,9 @@ setWorkingDir %A_ScriptDir%
 ::intersecção::{U+2229}
 ::união::{U+222A}
 ::integral::{U+222B}
+::integraldefinida::F(x) = {U+222B}[,] dx
+::derivada::{U+0307}
+::derivadade::f'(x) = 
 ;::::{U+220}
 ;::::{U+220}
 ;::::{U+220}
@@ -39,9 +42,19 @@ setWorkingDir %A_ScriptDir%
 ::nariointersecção::{U+22C2}
 ::nariounião::{U+22C3}
 
-::doisiguaisconsecutivos::{U+2A75}
+::duplo=::{U+2A75}
+::capitaldelta::{U+0394}
+::variação::{U+0394}
+::maiorigual::{U+2265}
+::menor::{U+003C}
+::menorigual::{U+2264}
 
 ::capital sigma::{U+03A3}
+::contradição::{U+203B}
+::contradição2::{U+21AF}
+::ortogonalidade::{U+22A5}
+
+
 
 ::recebe::{U+2190}
 ::implica::{U+2192}
