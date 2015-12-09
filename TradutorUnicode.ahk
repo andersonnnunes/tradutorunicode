@@ -25,7 +25,8 @@ setWorkingDir %A_ScriptDir%
 ::nãocontém::{U+220C}
 ::fimdeprova::{U+220E}
 ::anel::{U+2218}
-::infinito::{U+221E}
+:*:infinito::{U+221E}
+:*:ângulo::{U+2220}
 ::e::{U+2227}
 ::ou::{U+2228}
 ::intersecção::{U+2229}
@@ -44,7 +45,7 @@ setWorkingDir %A_ScriptDir%
 
 ::duplo=::{U+2A75}
 ::capitaldelta::{U+0394}
-::variação::{U+0394}
+:*:variação::{U+0394}
 ::maiorigual::{U+2265}
 ::menor::{U+003C}
 ::menorigual::{U+2264}
@@ -53,11 +54,23 @@ setWorkingDir %A_ScriptDir%
 ::contradição::{U+203B}
 ::contradição2::{U+21AF}
 ::ortogonalidade::{U+22A5}
+::pi::{U+03A0}
+
+::complexos::{U+2102}
+::racionais::{U+211A}
+::reais::{U+211D}
+::inteiros::{U+2124}
+::expoentenatural::{U+212F}
+::maisoumenos::{U+00B1}
+::inclinação::{U+2333}
+::eg::e.g. 
 
 
-
+::não::{U+00AC}
 ::recebe::{U+2190}
 ::implica::{U+2192}
+::mapeia::{U+2192}
+::tendea::{U+2192}
 ::biimplica::{U+2194}
 :*:unisw:: ;Cambiar estado do Tradutor
 	Suspend

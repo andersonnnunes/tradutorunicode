@@ -1,6 +1,6 @@
 Tradutor Unicode
 
-Objetivo: tomar nota de conteúdo matemático usando um computador convencional.
+Objetivo: tomar nota de conteúdo matemático usando um editor de texto convencional.
 
 Problema: impraticabilidade de inclusão de símbolos matemáticos no texto devido a dificuldade de memorização dos códigos Unicode para caracteres matemáticos.
 
