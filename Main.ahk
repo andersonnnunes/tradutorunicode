@@ -1,8 +1,4 @@
-﻿; Projeto de Anderson Nascimento Nunes | andersonnnunes.org | e-Mail: contato@andersonnnunes.org
-; Este trabalho está licenciado com uma Licença Creative Commons – Atribuição-CompartilhaIgual 4.0 Internacional.
-; Detalhes completos de licenciamento: http://creativecommons.org/licenses/by-sa/4.0/legalcode
-
-; ---------------- Declaração de inicialização ----------------
+﻿; ---------------- Declaração de Inicialização ----------------
 {
 #noTrayIcon
 #singleInstance force
@@ -13,7 +9,7 @@ setWorkingDir %A_ScriptDir%
 #installKeybdHook
 #usehook
 }
-; ---------------- Declaração de atalhos ----------------
+; ---------------- Declaração de Atalhos ----------------
 #Hotstring C1
 ::paratodo::{U+2200}
 ::existe::{U+2203}
@@ -89,7 +85,7 @@ setWorkingDir %A_ScriptDir%
 	}
 	return
 }
-; ---------------- Declaração de rótulos ----------------
+; ---------------- Declaração de Rótulos ----------------
 RemoveToolTip:
 {
 SetTimer, RemoveToolTip, Off
