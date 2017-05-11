@@ -1,5 +1,5 @@
 Autor
-	Anderson Nascimento Nunes | andersonnnunes.org | e-Mail: contato@andersonnnunes.org
+	Anderson Nascimento Nunes | andersonnnunes.org
 
 Licença
 	Conforme o arquivo "License.md", este projeto está em domínio público.
